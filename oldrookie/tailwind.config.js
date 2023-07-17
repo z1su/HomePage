@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/list/page.js",
     "./app/layout.js",
     "./app/list/layout.js",
@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      title: "url('/images/title.png')",
+      title: "url('/img/title.png')",
     },
 
     extend: {},
