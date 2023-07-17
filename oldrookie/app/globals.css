@@ -11,7 +11,7 @@
   /* project */
 
   .project_img {
-    width: 357px;
+    max-width: 357px;
     height: 250px;
     border-radius: 10px;
   }
@@ -52,5 +52,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+
+  .v-line {
+    border-left: thick solid #32a1ce;
+    height: 50px;
   }
 }

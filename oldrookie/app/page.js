@@ -1,10 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
+import Promotion from "@/app/components/about/promotion";
+import AboutBanner from "@/app/components/about/banner";
+import Project from "@/app/components/home/Project";
+import BannerWithCTA from "./components/basic/cta-banner";
 
 export default function Home() {
   return (
-    <div>
-      <h1>홈페이지</h1>
-    </div>
+    <section className="">
+      <Promotion />
+      <AboutBanner />
+      <Project />
+      <BannerWithCTA />
+    </section>
   );
 }
