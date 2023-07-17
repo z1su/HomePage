@@ -1,8 +1,9 @@
-import ProjectList from "@/components/project/project-list";
+import ProjectList from "@/app/components/project/project-list";
 import { getAllEvents } from "../dummy-data";
-import Title from "@/components/header/title";
-import Footer from "@/components/footer/footer";
-import Banner from "@/components/project/banner";
+import Title from "@/app/components/header/title";
+import Footer from "@/app/components/basic/footer";
+import Banner from "@/app/components/project/banner";
+import BannerWithCTA from "@/app/components/basic/cta-banner";
 
 export default function List() {
   const events = getAllEvents();
@@ -17,6 +18,7 @@ export default function List() {
       <Banner className="" />
       <h1 className="main_text mt-20">Our Portfolio</h1>
       <ProjectList events={events} />
+      <BannerWithCTA />
     </section>
   );
 }
