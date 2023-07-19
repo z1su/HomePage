@@ -1,7 +1,6 @@
 import ProjectList from "@/app/components/project/project-list";
 import { getAllEvents } from "../dummy-data";
 import Title from "@/app/components/header/title";
-import Footer from "@/app/components/basic/footer";
 import Banner from "@/app/components/project/banner";
 import BannerWithCTA from "@/app/components/basic/cta-banner";
 

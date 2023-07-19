@@ -116,37 +116,15 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        {/* <footer className="footer p-10 bg-neutral text-neutral-content">
-          <div>
-            <p>(주)올드루키</p>
-            <p>대표이사 한영석 | 사업자등록번호 263-87-01519 </p>
-            <p>
-              주소: 서울시 도봉구 마들로 13길 84, 서울창업허브 창동, 212호 TEL :
-              02-2039-3699
-            </p>
-          </div>
-          <div className="flex">
-            <span className="footer-title">Home</span>
-            <span className="footer-title">About</span>
-            <span className="footer-title">Project</span>
-            <span className="footer-title">Services</span>
-            <span className="footer-title">Contact</span>
-          </div>
-        </footer> */}
-
-        <footer className="bg-white shadow dark:bg-gray-900">
+        <footer className="bg-white shadow">
           <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
               <a
                 href="https://flowbite.com/"
                 className="flex items-center mb-4 sm:mb-0"
-              >
-                <span className="self-center text-l font-semibold whitespace-nowrap dark:text-white">
-                  (주)올드루키
-                </span>
-              </a>
+              ></a>
 
-              <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
                 <li>
                   <a href="#" className="mr-4 hover:underline md:mr-6 ">
                     Home
@@ -169,8 +147,17 @@ export default function RootLayout({ children }) {
                 </li>
               </ul>
             </div>
-            <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <p className="py-1.5 self-center text-l font-semibold whitespace-nowrap ">
+              (주)올드루키
+            </p>
+            <p className="py-1.5">
+              대표이사 한영석 | 사업자등록번호 263-87-01519
+            </p>
+            <p className="py-1.5">
+              주소: 서울시 도봉구 마들로 13길 84, 서울창업허브 창동, 212호 TEL :
+              02-2039-3699
+            </p>
+            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400 lg:my-5">
               © 2023{" "}
               <a href="https://flowbite.com/" className="hover:underline">
                 ©oldrookie

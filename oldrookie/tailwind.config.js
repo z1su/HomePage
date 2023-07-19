@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     backgroundImage: {
       title: "url('/img/title.png')",
+      footer: "url('/img/footer.png')",
     },
 
     extend: {},

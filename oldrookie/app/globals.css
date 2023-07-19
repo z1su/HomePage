@@ -8,6 +8,36 @@
     align-items: center;
   }
 
+  .cards {
+    display: flex;
+    grid-gap: 27px;
+    gap: 27px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px 0;
+    width: 300px;
+    height: 340px;
+    background: #fff;
+    border: 2px solid #d1d1d1;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .test {
+    width: 100%;
+    max-width: 1024px;
+    min-height: 60rem;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
   /* project */
 
   .project_img {
@@ -52,6 +82,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 6.5rem;
+    padding-bottom: 1rem;
   }
 
   .v-line {
