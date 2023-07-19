@@ -1,5 +1,5 @@
 export default function ProjectItem(props) {
-  const { title, subtitle, id, image } = props;
+  const { title, subtitle, id, image, category, content } = props;
 
   return (
     <div className="pr-[15px]">

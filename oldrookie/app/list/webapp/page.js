@@ -1,12 +1,16 @@
 import Title from "@/app/components/header/title";
+import ProjectList from "@/app/components/project/project-list";
+import { getAllEvents, getFilteredCategory } from "@/app/dummy-data";
+import BannerWithCTA from "@/app/components/basic/cta-banner";
 
 export default function webapp() {
+  const filteredevents = getFilteredCategory({ category: "web/App" });
   return (
     <section>
-      <Title name="WEB/APP" subname="올드루키의 프로젝트를 소개합니다."></Title>
+      <Title name="Web/App" subname="올드루키의 프로젝트를 소개합니다."></Title>
       <div className="pt-12 pr-0 pb-14 pl-0 bg-white">
         <div
-          className="w-full pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
+          className="pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
       max-w-7xl"
         >
           <div
@@ -31,19 +35,16 @@ export default function webapp() {
                 제안사의 니즈를 파악하여 브랜드 아이덴티티에 적합한 전략을
                 수립합니다.
               </span>
-            </div>
-          </div>
 
-          <div>
-            <h1 className="main_text mt-20">VR/AR 프로젝트 보기</h1>
-            <div>
-              <div>아이템</div>
-              <div>아이템</div>
-              <div>아이템</div>
+              <div>
+                <h1 className="main_text text-center">Web/App 프로젝트 보기</h1>
+              </div>
             </div>
           </div>
         </div>
+        <ProjectList events={filteredevents} />
       </div>
+      <BannerWithCTA />
     </section>
   );
 }

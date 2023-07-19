@@ -1,9 +1,6 @@
 import ProjectItem from "./project-item";
 
-//project item의 부모 컴포넌트
-//props로 events를 받아서 map을 돌려서 project item을 뿌려줌
-//project item은 이미지, 타이틀, 서브타이틀을 받아서 뿌려줌
-export default function ProjectList(props) {
+export default function ModelingFashionList(props) {
   const { events } = props;
   return (
     <div className="flex justify-center mb-[5rem] mt-[3rem]">
