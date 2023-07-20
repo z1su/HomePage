@@ -90,4 +90,20 @@
     border-left: thick solid #32a1ce;
     height: 50px;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: auto;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
 }
