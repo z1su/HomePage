@@ -4,7 +4,7 @@ export default function ModelingFashionList(props) {
   const { events } = props;
   return (
     <div className="flex justify-center mb-[5rem] mt-[3rem]">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {events.map((event) => (
           <div key={event.id} className="flex items-center justify-center">
             <ProjectItem
