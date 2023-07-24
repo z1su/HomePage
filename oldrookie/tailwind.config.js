@@ -11,9 +11,26 @@ module.exports = {
     backgroundImage: {
       title: "url('/img/title.png')",
       footer: "url('/img/footer.png')",
+      banner01: "url('/img/banner01.png')",
+      banner02: "url('/img/banner02.png')",
+      banner03: "url('/img/banner03.png')",
     },
 
-    extend: {},
+    screens: {
+      sm: { max: "768px" },
+      md: { min: "769px", max: "1023px" },
+    },
+
+    maxWidth: {
+      "custom-size": "20rem",
+      "50vh": "50vh",
+    },
+
+    extend: {
+      colors: {
+        "main-color": "#0042FF",
+      },
+    },
     // screens: {
     //   m: { min: "390px", max: "425px" },
     //   t: { min: "426px", max: "900px" },
