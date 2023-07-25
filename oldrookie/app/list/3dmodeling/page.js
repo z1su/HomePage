@@ -20,14 +20,14 @@ export default function modeling() {
       ></Title>
       <div className="pt-12 pr-0 pb-14 pl-0 bg-white">
         <div
-          className="pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
+          className="pt-4 pr-5 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 md:py-12 sm:space-y-8 md:space-y-16
       max-w-7xl"
         >
           <div
             className="flex flex-col justify-center h-full space-y-3 transform md:pr-10 lg:pr-16
             md:space-y-5"
           >
-            <div className="text-center">
+            <div className="text-center sm:sm_container sm:text-sm">
               <span>
                 웹 빌드, 촬영, 가공 및 편집으로 가상공간 제작하여 기업의 브랜드
                 아이덴티티를 효과적으로 표현하고
@@ -47,7 +47,7 @@ export default function modeling() {
               </span>
 
               <div className="text-center">
-                <h1 className="main_text">공간 3D 모델링</h1>
+                <h1 className="main_text sm:sm_main_text">공간 3D 모델링</h1>
                 <span>
                   브랜드의 아이덴티티를 나타내고 상품을 전시할 수 있는
                   쇼윈도우를 VR 공간에 제작하였습니다.
@@ -62,8 +62,8 @@ export default function modeling() {
           </div>
         </div>
         <ModelingSpaceList events={filteredspace} />
-        <div className="text-center">
-          <h1 className="main_text my-5">오브젝트 3D 모델링</h1>
+        <h1 className="main_text my-5 sm:sm_main_text">오브젝트 3D 모델링</h1>
+        <div className="text-center sm:sm_container sm:text-sm">
           <span>
             브랜드의 상품을 포토그래메트리(Photogrammetry) 기술을 활용하여 360º
             돌려볼 수 있는 3D 모델을 제작하였습니다.
