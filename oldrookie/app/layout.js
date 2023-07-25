@@ -67,11 +67,8 @@ export default function RootLayout({ children }) {
                 />
               </svg>
             </button>
-            <div
-              className="hidden w-full md:block md:w-auto"
-              id="navbar-default"
-            >
-              <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <div className="hidden w-full block w-auto" id="navbar-default">
+              <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 flex-row space-x-8 mt-0 border-0 md:bg-white dark:bg-gray-800 dark:bg-gray-900 dark:border-gray-700">
                 <li>
                   <a
                     href="#"
@@ -112,9 +109,9 @@ export default function RootLayout({ children }) {
         {/* <Navbar label="Menu" items={menuItems} /> */}
         {/* <Navbar /> */}
         {children}
-        <footer className="bg-white shadow">
+        <footer className="sm:text-sm bg-white shadow">
           <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div className="sm:flex sm:items-center sm:justify-between">
+            <div className="flex items-center justify-between">
               <a
                 href="https://flowbite.com/"
                 className="flex items-center mb-4 sm:mb-0"
@@ -152,7 +149,7 @@ export default function RootLayout({ children }) {
               주소: 서울시 도봉구 마들로 13길 84, 서울창업허브 창동, 212호 TEL :
               02-2039-3699
             </p>
-            <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400 lg:my-5">
+            <span className="block text-sm text-gray-500 text-center dark:text-gray-400 lg:my-5">
               © 2023{" "}
               <a href="https://flowbite.com/" className="hover:underline">
                 ©oldrookie

@@ -16,8 +16,8 @@
   }
 
   .main_container {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .sm_container {
@@ -46,6 +46,9 @@
     cursor: pointer;
   }
 
+  .gmg {
+    white-space: pre-wrap;
+  }
   .test {
     width: 100%;
     max-width: 1024px;
@@ -58,8 +61,20 @@
   /* project */
 
   .project_img {
-    max-width: 357px;
-    height: 250px;
+    max-width: 24rem;
+    height: 16rem;
+    border-radius: 10px;
+  }
+
+  .project_img_sm {
+    max-width: 20rem;
+    height: 16rem;
+    border-radius: 10px;
+  }
+
+  .vrar_img {
+    max-width: 21rem;
+    height: 13rem;
     border-radius: 10px;
   }
 
@@ -99,8 +114,13 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 6.5rem;
+    padding-top: 6rem;
     padding-bottom: 1rem;
+  }
+
+  .sm_main_text {
+    font-size: 2rem;
+    line-height: 2.25rem;
   }
 
   .v-line {

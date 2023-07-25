@@ -6,9 +6,11 @@ import BannerWithCTA from "./components/basic/cta-banner";
 export default function Home() {
   return (
     <section className="">
-      <Promotion />
-      <AboutBanner />
-      <Project />
+      <div className="">
+        <Promotion />
+        <AboutBanner />
+        <Project />
+      </div>
       <BannerWithCTA />
     </section>
   );
